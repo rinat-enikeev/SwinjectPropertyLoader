@@ -7,74 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E03B7E52386720500949713 /* Assembler+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03B7DD2386720500949713 /* Assembler+Properties.swift */; };
+		0E03B7E62386720500949713 /* SwinjectPropertyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E03B7DE2386720500949713 /* SwinjectPropertyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E03B7E72386720500949713 /* PropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03B7DF2386720500949713 /* PropertyLoader.swift */; };
+		0E03B7E82386720500949713 /* JsonPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03B7E02386720500949713 /* JsonPropertyLoader.swift */; };
+		0E03B7E92386720500949713 /* Resolver+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03B7E12386720500949713 /* Resolver+Properties.swift */; };
+		0E03B7EA2386720500949713 /* PlistPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03B7E22386720500949713 /* PlistPropertyLoader.swift */; };
+		0E03B7EC2386720500949713 /* PropertyLoaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03B7E42386720500949713 /* PropertyLoaderError.swift */; };
 		8963F0E6225D386B0080B8B0 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983DFE641CDB38F000D39731 /* Swinject.framework */; };
 		8963F0E7225D387D0080B8B0 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983DFE681CDB38F000D39731 /* Swinject.framework */; };
 		8963F0E8225D38990080B8B0 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983DFE6E1CDB38F000D39731 /* Swinject.framework */; };
 		8963F0E9225D38D50080B8B0 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983DFE6C1CDB38F000D39731 /* Swinject.framework */; };
-		983D00001CDF63A000D39731 /* Resolver+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFB1CDF63A000D39731 /* Resolver+Properties.swift */; };
-		983D00011CDF63A000D39731 /* Resolver+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFB1CDF63A000D39731 /* Resolver+Properties.swift */; };
-		983D00021CDF63A000D39731 /* Resolver+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFB1CDF63A000D39731 /* Resolver+Properties.swift */; };
-		983D00031CDF63A000D39731 /* Resolver+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFB1CDF63A000D39731 /* Resolver+Properties.swift */; };
-		983D00041CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFC1CDF63A000D39731 /* JsonPropertyLoader.swift */; };
-		983D00051CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFC1CDF63A000D39731 /* JsonPropertyLoader.swift */; };
-		983D00061CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFC1CDF63A000D39731 /* JsonPropertyLoader.swift */; };
-		983D00071CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFC1CDF63A000D39731 /* JsonPropertyLoader.swift */; };
-		983D00081CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFD1CDF63A000D39731 /* PlistPropertyLoader.swift */; };
-		983D00091CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFD1CDF63A000D39731 /* PlistPropertyLoader.swift */; };
-		983D000A1CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFD1CDF63A000D39731 /* PlistPropertyLoader.swift */; };
-		983D000B1CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFD1CDF63A000D39731 /* PlistPropertyLoader.swift */; };
-		983D000C1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFE1CDF63A000D39731 /* PropertyLoaderError.swift */; };
-		983D000D1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFE1CDF63A000D39731 /* PropertyLoaderError.swift */; };
-		983D000E1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFE1CDF63A000D39731 /* PropertyLoaderError.swift */; };
-		983D000F1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFE1CDF63A000D39731 /* PropertyLoaderError.swift */; };
-		983D00101CDF63A000D39731 /* PropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFF1CDF63A000D39731 /* PropertyLoader.swift */; };
-		983D00111CDF63A000D39731 /* PropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFF1CDF63A000D39731 /* PropertyLoader.swift */; };
-		983D00121CDF63A000D39731 /* PropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFF1CDF63A000D39731 /* PropertyLoader.swift */; };
-		983D00131CDF63A000D39731 /* PropertyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DFFFF1CDF63A000D39731 /* PropertyLoader.swift */; };
-		983D00181CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00141CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift */; };
-		983D00191CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00141CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift */; };
-		983D001A1CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00141CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift */; };
-		983D001B1CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00151CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift */; };
-		983D001C1CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00151CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift */; };
-		983D001D1CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00151CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift */; };
-		983D001E1CDF63CA00D39731 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00161CDF63CA00D39731 /* Properties.swift */; };
-		983D001F1CDF63CA00D39731 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00161CDF63CA00D39731 /* Properties.swift */; };
-		983D00201CDF63CA00D39731 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00161CDF63CA00D39731 /* Properties.swift */; };
-		983D002A1CDF63E000D39731 /* first.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00251CDF63E000D39731 /* first.json */; };
-		983D002B1CDF63E000D39731 /* first.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00251CDF63E000D39731 /* first.json */; };
-		983D002C1CDF63E000D39731 /* first.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00251CDF63E000D39731 /* first.json */; };
-		983D002D1CDF63E000D39731 /* first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983D00261CDF63E000D39731 /* first.plist */; };
-		983D002E1CDF63E000D39731 /* first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983D00261CDF63E000D39731 /* first.plist */; };
-		983D002F1CDF63E000D39731 /* first.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983D00261CDF63E000D39731 /* first.plist */; };
-		983D00301CDF63E000D39731 /* invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00271CDF63E000D39731 /* invalid.json */; };
-		983D00311CDF63E000D39731 /* invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00271CDF63E000D39731 /* invalid.json */; };
-		983D00321CDF63E000D39731 /* invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00271CDF63E000D39731 /* invalid.json */; };
-		983D00331CDF63E000D39731 /* second.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00281CDF63E000D39731 /* second.json */; };
-		983D00341CDF63E000D39731 /* second.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00281CDF63E000D39731 /* second.json */; };
-		983D00351CDF63E000D39731 /* second.json in Resources */ = {isa = PBXBuildFile; fileRef = 983D00281CDF63E000D39731 /* second.json */; };
-		983D00361CDF63E000D39731 /* second.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983D00291CDF63E000D39731 /* second.plist */; };
-		983D00371CDF63E000D39731 /* second.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983D00291CDF63E000D39731 /* second.plist */; };
-		983D00381CDF63E000D39731 /* second.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983D00291CDF63E000D39731 /* second.plist */; };
-		983D00401CDF651600D39731 /* Assembler+PropertiesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D003F1CDF651600D39731 /* Assembler+PropertiesSpec.swift */; };
-		983D00411CDF651600D39731 /* Assembler+PropertiesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D003F1CDF651600D39731 /* Assembler+PropertiesSpec.swift */; };
-		983D00421CDF651600D39731 /* Assembler+PropertiesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D003F1CDF651600D39731 /* Assembler+PropertiesSpec.swift */; };
-		983D005B1CDF664600D39731 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D005A1CDF664600D39731 /* Animal.swift */; };
-		983D005C1CDF664600D39731 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D005A1CDF664600D39731 /* Animal.swift */; };
-		983D005D1CDF664600D39731 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D005A1CDF664600D39731 /* Animal.swift */; };
-		983D005F1CDF67A900D39731 /* Resolver+PropertiesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D005E1CDF67A900D39731 /* Resolver+PropertiesSpec.swift */; };
-		983D00601CDF67A900D39731 /* Resolver+PropertiesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D005E1CDF67A900D39731 /* Resolver+PropertiesSpec.swift */; };
-		983D00611CDF67A900D39731 /* Resolver+PropertiesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D005E1CDF67A900D39731 /* Resolver+PropertiesSpec.swift */; };
-		983D00991CDF6DA300D39731 /* Assembler+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00391CDF640D00D39731 /* Assembler+Properties.swift */; };
-		983D009A1CDF6DA400D39731 /* Assembler+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00391CDF640D00D39731 /* Assembler+Properties.swift */; };
-		983D009B1CDF6DA500D39731 /* Assembler+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00391CDF640D00D39731 /* Assembler+Properties.swift */; };
-		983D009C1CDF6DA500D39731 /* Assembler+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00391CDF640D00D39731 /* Assembler+Properties.swift */; };
-		983D009D1CDF6FEE00D39731 /* BasicAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00491CDF65E400D39731 /* BasicAssembly.swift */; };
-		983D009E1CDF6FEF00D39731 /* BasicAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00491CDF65E400D39731 /* BasicAssembly.swift */; };
-		983D009F1CDF6FF000D39731 /* BasicAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00491CDF65E400D39731 /* BasicAssembly.swift */; };
-		983DFF831CDF406F00D39731 /* SwinjectPropertyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 985904091CDB0AA700275E4A /* SwinjectPropertyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		985315521CDB2CBF009E9FB7 /* SwinjectPropertyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 985904091CDB0AA700275E4A /* SwinjectPropertyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		985315531CDB2CC0009E9FB7 /* SwinjectPropertyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 985904091CDB0AA700275E4A /* SwinjectPropertyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9859040A1CDB0AA700275E4A /* SwinjectPropertyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 985904091CDB0AA700275E4A /* SwinjectPropertyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		985904111CDB0AA700275E4A /* SwinjectPropertyLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985904061CDB0AA700275E4A /* SwinjectPropertyLoader.framework */; };
 		98D562821CDB173500DECDC0 /* SwinjectPropertyLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D562781CDB173500DECDC0 /* SwinjectPropertyLoader.framework */; };
 		98D5629E1CDB19AB00DECDC0 /* SwinjectPropertyLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D562941CDB19AB00DECDC0 /* SwinjectPropertyLoader.framework */; };
@@ -356,6 +299,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E03B7DD2386720500949713 /* Assembler+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assembler+Properties.swift"; sourceTree = "<group>"; };
+		0E03B7DE2386720500949713 /* SwinjectPropertyLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwinjectPropertyLoader.h; sourceTree = "<group>"; };
+		0E03B7DF2386720500949713 /* PropertyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyLoader.swift; sourceTree = "<group>"; };
+		0E03B7E02386720500949713 /* JsonPropertyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonPropertyLoader.swift; sourceTree = "<group>"; };
+		0E03B7E12386720500949713 /* Resolver+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Resolver+Properties.swift"; sourceTree = "<group>"; };
+		0E03B7E22386720500949713 /* PlistPropertyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistPropertyLoader.swift; sourceTree = "<group>"; };
+		0E03B7E32386720500949713 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E03B7E42386720500949713 /* PropertyLoaderError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyLoaderError.swift; sourceTree = "<group>"; };
 		8963F0D7225D33E50080B8B0 /* macOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "macOS-Application.xcconfig"; sourceTree = "<group>"; };
 		8963F0D8225D33E50080B8B0 /* macOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "macOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		8963F0D9225D33E50080B8B0 /* macOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "macOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
@@ -364,35 +315,14 @@
 		8963F0DC225D33E50080B8B0 /* macOS-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "macOS-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
 		8963F0E3225D34210080B8B0 /* Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Extension.xcconfig; sourceTree = "<group>"; };
 		8963F0E4225D342C0080B8B0 /* iOS-Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Extension.xcconfig"; sourceTree = "<group>"; };
-		983D00141CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonPropertyLoaderSpec.swift; sourceTree = "<group>"; };
-		983D00151CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistPropertyLoaderSpec.swift; sourceTree = "<group>"; };
-		983D00161CDF63CA00D39731 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
-		983D00251CDF63E000D39731 /* first.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = first.json; sourceTree = "<group>"; };
-		983D00261CDF63E000D39731 /* first.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = first.plist; sourceTree = "<group>"; };
-		983D00271CDF63E000D39731 /* invalid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = invalid.json; sourceTree = "<group>"; };
-		983D00281CDF63E000D39731 /* second.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = second.json; sourceTree = "<group>"; };
-		983D00291CDF63E000D39731 /* second.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = second.plist; sourceTree = "<group>"; };
-		983D00391CDF640D00D39731 /* Assembler+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assembler+Properties.swift"; sourceTree = "<group>"; };
-		983D003F1CDF651600D39731 /* Assembler+PropertiesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assembler+PropertiesSpec.swift"; sourceTree = "<group>"; };
-		983D00491CDF65E400D39731 /* BasicAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAssembly.swift; sourceTree = "<group>"; };
-		983D005A1CDF664600D39731 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
-		983D005E1CDF67A900D39731 /* Resolver+PropertiesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Resolver+PropertiesSpec.swift"; sourceTree = "<group>"; };
 		983DFE4E1CDB38F000D39731 /* Swinject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swinject.xcodeproj; path = Carthage/Checkouts/Swinject/Swinject.xcodeproj; sourceTree = "<group>"; };
 		983DFF6D1CDF3FEE00D39731 /* SwinjectPropertyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectPropertyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		983DFF851CDF418300D39731 /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
 		983DFF861CDF418300D39731 /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
 		983DFF871CDF418300D39731 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		983DFF881CDF418300D39731 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		983DFFFB1CDF63A000D39731 /* Resolver+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Resolver+Properties.swift"; sourceTree = "<group>"; };
-		983DFFFC1CDF63A000D39731 /* JsonPropertyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonPropertyLoader.swift; sourceTree = "<group>"; };
-		983DFFFD1CDF63A000D39731 /* PlistPropertyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistPropertyLoader.swift; sourceTree = "<group>"; };
-		983DFFFE1CDF63A000D39731 /* PropertyLoaderError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyLoaderError.swift; sourceTree = "<group>"; };
-		983DFFFF1CDF63A000D39731 /* PropertyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyLoader.swift; sourceTree = "<group>"; };
 		985904061CDB0AA700275E4A /* SwinjectPropertyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectPropertyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		985904091CDB0AA700275E4A /* SwinjectPropertyLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwinjectPropertyLoader.h; sourceTree = "<group>"; };
-		9859040B1CDB0AA700275E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		985904101CDB0AA700275E4A /* SwinjectPropertyLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectPropertyLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		985904171CDB0AA700275E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D562781CDB173500DECDC0 /* SwinjectPropertyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectPropertyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D562811CDB173500DECDC0 /* SwinjectPropertyLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectPropertyLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D562941CDB19AB00DECDC0 /* SwinjectPropertyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwinjectPropertyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -483,6 +413,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E03B7DB2386720500949713 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0E03B7DC2386720500949713 /* SwinjectPropertyLoader */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0E03B7DC2386720500949713 /* SwinjectPropertyLoader */ = {
+			isa = PBXGroup;
+			children = (
+				0E03B7DD2386720500949713 /* Assembler+Properties.swift */,
+				0E03B7DE2386720500949713 /* SwinjectPropertyLoader.h */,
+				0E03B7DF2386720500949713 /* PropertyLoader.swift */,
+				0E03B7E02386720500949713 /* JsonPropertyLoader.swift */,
+				0E03B7E12386720500949713 /* Resolver+Properties.swift */,
+				0E03B7E22386720500949713 /* PlistPropertyLoader.swift */,
+				0E03B7E32386720500949713 /* Info.plist */,
+				0E03B7E42386720500949713 /* PropertyLoaderError.swift */,
+			);
+			path = SwinjectPropertyLoader;
+			sourceTree = "<group>";
+		};
+		0E03B7ED2386721300949713 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0E03B7EE2386721300949713 /* SwinjectPropertyLoaderTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		0E03B7EE2386721300949713 /* SwinjectPropertyLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwinjectPropertyLoaderTests;
+			sourceTree = "<group>";
+		};
 		8963F0D6225D33E50080B8B0 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,28 +462,6 @@
 				8963F0DB225D33E50080B8B0 /* macOS-XCTest.xcconfig */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		983D00241CDF63E000D39731 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				983D00251CDF63E000D39731 /* first.json */,
-				983D00261CDF63E000D39731 /* first.plist */,
-				983D00271CDF63E000D39731 /* invalid.json */,
-				983D00281CDF63E000D39731 /* second.json */,
-				983D00291CDF63E000D39731 /* second.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		983D00431CDF65C300D39731 /* Fakes */ = {
-			isa = PBXGroup;
-			children = (
-				983D005A1CDF664600D39731 /* Animal.swift */,
-				983D00161CDF63CA00D39731 /* Properties.swift */,
-				983D00491CDF65E400D39731 /* BasicAssembly.swift */,
-			);
-			name = Fakes;
 			sourceTree = "<group>";
 		};
 		983DFE4F1CDB38F000D39731 /* Products */ = {
@@ -546,8 +492,8 @@
 		985903FC1CDB0AA700275E4A = {
 			isa = PBXGroup;
 			children = (
-				985904081CDB0AA700275E4A /* Sources */,
-				985904141CDB0AA700275E4A /* Tests */,
+				0E03B7DB2386720500949713 /* Sources */,
+				0E03B7ED2386721300949713 /* Tests */,
 				985904071CDB0AA700275E4A /* Products */,
 				98D562AF1CDB1E8800DECDC0 /* Configurations */,
 				983DFE4E1CDB38F000D39731 /* Swinject.xcodeproj */,
@@ -568,35 +514,6 @@
 				983DFF6D1CDF3FEE00D39731 /* SwinjectPropertyLoader.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		985904081CDB0AA700275E4A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				983DFFFB1CDF63A000D39731 /* Resolver+Properties.swift */,
-				983D00391CDF640D00D39731 /* Assembler+Properties.swift */,
-				983DFFFC1CDF63A000D39731 /* JsonPropertyLoader.swift */,
-				983DFFFD1CDF63A000D39731 /* PlistPropertyLoader.swift */,
-				983DFFFE1CDF63A000D39731 /* PropertyLoaderError.swift */,
-				983DFFFF1CDF63A000D39731 /* PropertyLoader.swift */,
-				985904091CDB0AA700275E4A /* SwinjectPropertyLoader.h */,
-				9859040B1CDB0AA700275E4A /* Info.plist */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		985904141CDB0AA700275E4A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				983D00241CDF63E000D39731 /* Resources */,
-				983D00431CDF65C300D39731 /* Fakes */,
-				983D005E1CDF67A900D39731 /* Resolver+PropertiesSpec.swift */,
-				983D003F1CDF651600D39731 /* Assembler+PropertiesSpec.swift */,
-				983D00141CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift */,
-				983D00151CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift */,
-				985904171CDB0AA700275E4A /* Info.plist */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		98D562AF1CDB1E8800DECDC0 /* Configurations */ = {
@@ -706,7 +623,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983DFF831CDF406F00D39731 /* SwinjectPropertyLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,7 +630,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9859040A1CDB0AA700275E4A /* SwinjectPropertyLoader.h in Headers */,
+				0E03B7E62386720500949713 /* SwinjectPropertyLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,7 +638,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985315521CDB2CBF009E9FB7 /* SwinjectPropertyLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,7 +645,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985315531CDB2CC0009E9FB7 /* SwinjectPropertyLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1149,11 +1063,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D002A1CDF63E000D39731 /* first.json in Resources */,
-				983D002D1CDF63E000D39731 /* first.plist in Resources */,
-				983D00301CDF63E000D39731 /* invalid.json in Resources */,
-				983D00361CDF63E000D39731 /* second.plist in Resources */,
-				983D00331CDF63E000D39731 /* second.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1168,11 +1077,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D002B1CDF63E000D39731 /* first.json in Resources */,
-				983D002E1CDF63E000D39731 /* first.plist in Resources */,
-				983D00311CDF63E000D39731 /* invalid.json in Resources */,
-				983D00371CDF63E000D39731 /* second.plist in Resources */,
-				983D00341CDF63E000D39731 /* second.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1187,11 +1091,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D002C1CDF63E000D39731 /* first.json in Resources */,
-				983D002F1CDF63E000D39731 /* first.plist in Resources */,
-				983D00321CDF63E000D39731 /* invalid.json in Resources */,
-				983D00381CDF63E000D39731 /* second.plist in Resources */,
-				983D00351CDF63E000D39731 /* second.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1202,12 +1101,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D00031CDF63A000D39731 /* Resolver+Properties.swift in Sources */,
-				983D00991CDF6DA300D39731 /* Assembler+Properties.swift in Sources */,
-				983D00071CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */,
-				983D000F1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */,
-				983D000B1CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */,
-				983D00131CDF63A000D39731 /* PropertyLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1215,12 +1108,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D00001CDF63A000D39731 /* Resolver+Properties.swift in Sources */,
-				983D009C1CDF6DA500D39731 /* Assembler+Properties.swift in Sources */,
-				983D00041CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */,
-				983D000C1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */,
-				983D00081CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */,
-				983D00101CDF63A000D39731 /* PropertyLoader.swift in Sources */,
+				0E03B7EA2386720500949713 /* PlistPropertyLoader.swift in Sources */,
+				0E03B7E52386720500949713 /* Assembler+Properties.swift in Sources */,
+				0E03B7EC2386720500949713 /* PropertyLoaderError.swift in Sources */,
+				0E03B7E82386720500949713 /* JsonPropertyLoader.swift in Sources */,
+				0E03B7E92386720500949713 /* Resolver+Properties.swift in Sources */,
+				0E03B7E72386720500949713 /* PropertyLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1228,13 +1121,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D009D1CDF6FEE00D39731 /* BasicAssembly.swift in Sources */,
-				983D001E1CDF63CA00D39731 /* Properties.swift in Sources */,
-				983D005F1CDF67A900D39731 /* Resolver+PropertiesSpec.swift in Sources */,
-				983D001B1CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift in Sources */,
-				983D00401CDF651600D39731 /* Assembler+PropertiesSpec.swift in Sources */,
-				983D00181CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift in Sources */,
-				983D005B1CDF664600D39731 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1242,12 +1128,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D00011CDF63A000D39731 /* Resolver+Properties.swift in Sources */,
-				983D009B1CDF6DA500D39731 /* Assembler+Properties.swift in Sources */,
-				983D00051CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */,
-				983D000D1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */,
-				983D00091CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */,
-				983D00111CDF63A000D39731 /* PropertyLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1255,13 +1135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D009E1CDF6FEF00D39731 /* BasicAssembly.swift in Sources */,
-				983D001F1CDF63CA00D39731 /* Properties.swift in Sources */,
-				983D00601CDF67A900D39731 /* Resolver+PropertiesSpec.swift in Sources */,
-				983D001C1CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift in Sources */,
-				983D00411CDF651600D39731 /* Assembler+PropertiesSpec.swift in Sources */,
-				983D00191CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift in Sources */,
-				983D005C1CDF664600D39731 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1269,12 +1142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D00021CDF63A000D39731 /* Resolver+Properties.swift in Sources */,
-				983D009A1CDF6DA400D39731 /* Assembler+Properties.swift in Sources */,
-				983D00061CDF63A000D39731 /* JsonPropertyLoader.swift in Sources */,
-				983D000E1CDF63A000D39731 /* PropertyLoaderError.swift in Sources */,
-				983D000A1CDF63A000D39731 /* PlistPropertyLoader.swift in Sources */,
-				983D00121CDF63A000D39731 /* PropertyLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1282,13 +1149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983D009F1CDF6FF000D39731 /* BasicAssembly.swift in Sources */,
-				983D00201CDF63CA00D39731 /* Properties.swift in Sources */,
-				983D00611CDF67A900D39731 /* Resolver+PropertiesSpec.swift in Sources */,
-				983D001D1CDF63CA00D39731 /* PlistPropertyLoaderSpec.swift in Sources */,
-				983D00421CDF651600D39731 /* Assembler+PropertiesSpec.swift in Sources */,
-				983D001A1CDF63CA00D39731 /* JsonPropertyLoaderSpec.swift in Sources */,
-				983D005D1CDF664600D39731 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1371,7 +1231,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1388,7 +1248,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_VERSION = 5.0;
@@ -1441,8 +1301,9 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1457,8 +1318,9 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1468,6 +1330,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98D562BD1CDB1E8800DECDC0 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoaderTests";
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -1479,6 +1342,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98D562BD1CDB1E8800DECDC0 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoaderTests";
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -1494,8 +1358,9 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1510,8 +1375,9 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1547,7 +1413,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1564,7 +1430,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwinjectPropertyLoader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectPropertyLoader";
 				SWIFT_VERSION = 5.0;
