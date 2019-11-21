@@ -36,6 +36,22 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
 .build/
+.build
+DerivedData
+/.previous-build
+xcuserdata
+.DS_Store
+*~
+\#*
+.\#*
+.*.sw[nop]
+*.xcscmblueprint
+/default.profraw
+*.xcodeproj
+Utilities/Docker/*.tar.gz
+.swiftpm
+Package.resolved
+/build
 
 # CocoaPods
 #
